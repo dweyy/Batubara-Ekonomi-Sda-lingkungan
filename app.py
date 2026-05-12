@@ -66,13 +66,13 @@ def load_data():
     df["MC_per_ton"]  = df["mc"]  / (df["Q"] * 1e6)
     return df 
 df = load_data()
+from PIL import Image  # pastikan import ini ada di atas file
+
 # ─────────────────────────────
 # LOGO UNISBA
 # ─────────────────────────────
-st.sidebar.image(
-    "https://www.koleksilogo.com/2023/06/logo-universitas-islam-bandung.html",  # link logo
-    width=80  # ukuran logo, bisa diubah sesuai kebutuhan
-)
+logo = Image.open("Logo Unisba.png")  # nama file harus sama dengan repo
+st.sidebar.image(logo, width=80)
 # ─────────────────────────────
 # SIDEBAR – INFORMASI TIM
 # ─────────────────────────────
