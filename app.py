@@ -67,6 +67,13 @@ def load_data():
     return df 
 df = load_data()
 # ─────────────────────────────
+# LOGO UNISBA
+# ─────────────────────────────
+st.sidebar.image(
+    "https://seeklogo.com/vector-logo/550088/unisba",  # link logo
+    width=80  # ukuran logo, bisa diubah sesuai kebutuhan
+)
+# ─────────────────────────────
 # SIDEBAR – INFORMASI TIM
 # ─────────────────────────────
 st.sidebar.markdown("### 🌿 Ekonomi SDA & Lingkungan")
