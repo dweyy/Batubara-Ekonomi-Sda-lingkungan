@@ -70,7 +70,7 @@ df = load_data()
 # LOGO UNISBA
 # ─────────────────────────────
 st.sidebar.image(
-    "https://seeklogo.com/vector-logo/550088/unisba",  # link logo
+    "https://www.koleksilogo.com/2023/06/logo-universitas-islam-bandung.html",  # link logo
     width=80  # ukuran logo, bisa diubah sesuai kebutuhan
 )
 # ─────────────────────────────
